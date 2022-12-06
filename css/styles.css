@@ -1,0 +1,194 @@
+body {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+h1 {
+  line-height: 1.5;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+}
+h3:nth-of-type(1) {
+  margin-top: 27%;
+}
+@media (max-width: 650px) {
+  h3:nth-of-type(1) {
+    margin-top: 20px;
+  }
+  h3:nth-of-type(2) {
+    margin-bottom: 30px;
+  }
+}
+
+/* Title Section */
+.colored-section {
+  background-color: #497174;
+  color: white;
+}
+.colored-section img {
+  width: 80%;
+  height: auto;
+}
+.navigation-div {
+  padding: 2% 2% 5%;
+}
+.identification-div {
+  padding: 3% 0;
+}
+
+/* Tech Skills */
+.tech-div {
+  padding: 5% 8%;
+}
+.tech-h2 {
+  padding-bottom: 3%;
+  color: #001253;
+}
+.tech-div p {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #404258;
+}
+.progress {
+  height: 35px;
+}
+.div-progress-1 {
+  padding: 2% 0;
+}
+.div-progress-2 {
+  padding: 1.7% 0;
+}
+@media (max-width: 575px) {
+  .div-progress-1, .div-progress-2 {
+    display: inline-block;
+  }
+  .div-progress-1 {
+    width: 20%;
+    padding-right: 5%;
+  }
+  .div-progress-2 {
+    width: 70%;
+    padding-left: 5%;
+  }
+}
+
+/* Certification Section */
+.image-carousel-div {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 2% 0 5%;
+}
+.image-carousel-div img {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+.certification-h2 {
+  padding-top: 2%;
+}
+
+/* Projects Section */
+.projects-div {
+  padding: 7% 5% 13%;
+}
+.projects-h2 {
+  padding-top: 6%;
+}
+.projects-div img {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.projects-div p {
+  font-size: 0.9rem;
+}
+.pyqt5-img {
+  padding: 17% 0 0;
+}
+.tkinter-img {
+  padding: 20% 0 0;
+}
+.front-img {
+  padding-top: 5.5%;
+}
+.project-card:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 575px) {
+  .project-card {
+    padding: 0 15%;
+    width: 70%;
+    height: auto;
+    margin: auto;
+  }
+}
+
+/* Passions Section */
+#passions > div .nav-link {
+  background-color: #497174;
+}
+#passions > div .nav-link:focus {
+  background-color: #61764B;
+  color: #fff;
+}
+.passions-div {
+  padding: 4% 10% 5%;
+}
+.passion-h2 {
+  padding-top: 4%;
+}
+.passion-gif {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding-top: 8%;
+}
+.passion-span {
+  font-size: 1.3rem;
+  color: #FBFACD;
+}
+@media (max-width: 900px) {
+  .passion-gif {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    padding-top: 2%;
+  }
+}
+@media (max-width: 650px) {
+  .passion-span {
+    font-size: 15px;
+  }
+  .navigation-buttons {
+    padding: 0 10%;
+  }
+}
+
+/* Contact Section */
+.footer-div {
+  padding: 8% 10% 2%;
+}
+.footer-h2 {
+  padding: 3% 0 5%;
+}
+.footer-link {
+  padding: 0 1%;
+}
+.git-icon:hover, .link-icon:hover, .you-icon:hover, .gmail-icon:hover {
+    transform: scale(1.5);
+}
+.git-icon {
+    color: black;
+}
+.you-icon {
+    color: red;
+}
+.gmail-icon {
+    color: green;
+}
